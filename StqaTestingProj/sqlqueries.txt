@@ -1,0 +1,12 @@
+TO BE EXECUTED BEFORE ANYTHING
+
+create database StqaProj;
+
+use StqaProj;
+
+create table userid (username VARCHAR(100) NOT NULL PRIMARY KEY, password VARCHAR(100) NOT NULL);
+
+insert into userid values ("First Year","1styear");
+
+insert into userid values ("a","a");
+
